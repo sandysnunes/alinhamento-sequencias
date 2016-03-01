@@ -1,6 +1,3 @@
-/**
- * Alunos: Sandys Nunes e Vitor Naito
- */
 
 #include <iostream>
 #include <cstring>
@@ -13,14 +10,11 @@
 
 using namespace std;
 
-// variaveis globais
-// valores da função w
-// a inicialização de seus valores será feita antes de executar o algoritmo principal
 int igual_value;
 int diferente_value;
 int espaco_value;
 
-//constantes
+
 static const char * const MSG_FOMATO_ESPERADO =
 		"Use o seguinte formato:\n<nome executavel> [-g,-l] -u <arquivo 1a. sequencia> -v <arquivo 2a. sequencia> -i <w(a,a)> -d <w(a,b)> -e <w(-,b) ou w(a,-)>\n";
 static const int TAMANHO_ESPERADO_ARGUMENTOS = 12;
